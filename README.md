@@ -4,7 +4,7 @@
 
 Full setup and blank boilerplate for you and me :)
 
-Clone it, run "npm i" and "composer install", thats it.
+Clone it, run "npm i" and "composer install", rename .env.example in .env and run "php artisan key:generate" thats it.
 
 ## Author
 

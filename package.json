@@ -2,7 +2,10 @@
     "private": true,
     "scripts": {
         "dev": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --config=node_modules/laravel-mix/setup/webpack.config.js",
-        "watch": "npm run development -- --watch",
+        "development": "mix",
+        "watch": "mix watch",
+        "watch-poll": "mix watch -- --watch-options-poll=1000",
+        "hot": "mix watch --hot",
         "production": "npx mix -p"
     },
     "devDependencies": {
